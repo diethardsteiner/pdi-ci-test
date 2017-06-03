@@ -5,7 +5,9 @@ pipeline {
 
   stages {
     stage('Test'){
-	sh 'shell-scripts/run_tr_add_one.sh'
-	}
+      steps{
+        sh 'shell-scripts/run_tr_add_one.sh'
+      }
+    }
   }
 }
