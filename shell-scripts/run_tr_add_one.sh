@@ -1,2 +1,2 @@
 #!/bin/bash
-pan.sh -file=../etl/tr_add_one.ktr
+/home/dsteiner/apps/data-integration/pan.sh -file=../etl/tr_add_one.ktr
